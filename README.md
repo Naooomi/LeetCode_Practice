@@ -21,3 +21,7 @@
 #### 232. Implement Queue using Stacks
 #### 225. Implement Stack using Queues
 
+
+## Math
+#### 268. Missing Number
+#### 231. Power of Two
