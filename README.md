@@ -26,3 +26,6 @@
 #### 268. Missing Number
 #### 231. Power of Two
 #### 204. Count Primes
+
+### String
+#### 20. Valid Parentheses
