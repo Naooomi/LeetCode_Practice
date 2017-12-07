@@ -26,6 +26,7 @@
 #### 268. Missing Number
 #### 231. Power of Two
 #### 204. Count Primes
+#### 728. Self Dividing Numbers
 
 ### String
 #### 20. Valid Parentheses
