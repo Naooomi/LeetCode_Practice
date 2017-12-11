@@ -23,9 +23,12 @@
 
 
 ## Math
-#### 268. Missing Number
-#### 231. Power of Two
+#### 7. Reverse Integer
+#### 13. Roman to Integer
 #### 204. Count Primes
+#### 231. Power of Two
+#### 268. Missing Number
+#### 633. Sum of Square Numbers
 #### 728. Self Dividing Numbers
 
 ### String
