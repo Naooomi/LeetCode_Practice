@@ -25,6 +25,7 @@
 ## Math
 #### 7. Reverse Integer
 #### 13. Roman to Integer
+#### 66.Plus One
 #### 204. Count Primes
 #### 231. Power of Two
 #### 268. Missing Number
