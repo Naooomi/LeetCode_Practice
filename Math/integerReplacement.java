@@ -23,7 +23,7 @@
 class Solution {
     public int integerReplacement(int n) {
         if (n == Integer.MAX_VALUE) {
-            RETURN 32; // n = 2^32 - 1;
+            return 32; // n = 2^32 - 1;
         }
         int count = 0;
         while (n > 1) {
