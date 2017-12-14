@@ -29,6 +29,7 @@
 #### 204. Count Primes
 #### 231. Power of Two
 #### 268. Missing Number
+#### 397. Integer Replacement
 #### 645. Set Mismatch
 #### 633. Sum of Square Numbers
 #### 728. Self Dividing Numbers
