@@ -13,6 +13,7 @@
 #### 1. Two Sum
 #### 27. Remove Element
 #### 88. Merge Sorted Array
+#### 561. Array Partition(One)
 
 
 ## Stack
