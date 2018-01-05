@@ -30,6 +30,7 @@
 #### 204. Count Primes
 #### 231. Power of Two
 #### 268. Missing Number
+#### 326. Power of Three
 #### 397. Integer Replacement
 #### 645. Set Mismatch
 #### 633. Sum of Square Numbers
