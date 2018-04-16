@@ -32,8 +32,9 @@
 #### 268. Missing Number
 #### 326. Power of Three
 #### 397. Integer Replacement
-#### 645. Set Mismatch
+#### 628. Maximum Product of Three Numbers
 #### 633. Sum of Square Numbers
+#### 645. Set Mismatch
 #### 728. Self Dividing Numbers
 
 ### String
