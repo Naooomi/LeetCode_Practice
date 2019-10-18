@@ -1,5 +1,8 @@
 # LeetCode_Practice
 
+## BinarySearch
+#### 704. Binary Search
+
 ## LinkedList
 #### 328. Odd Even Linked List
 #### 237. Delete Node in a Linked List
