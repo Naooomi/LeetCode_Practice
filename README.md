@@ -1,18 +1,19 @@
 # LeetCode_Practice
 
 ## BinarySearch (3)
-#### 704. Binary Search
 #### 33. Search in Rotated Sorted Array
 #### 81. Search in Rotated Sorted Array II
+#### 153. Find Minimum in Rotated Sorted Array
+#### 704. Binary Search
 
 ## LinkedList (7)
-#### 328. Odd Even Linked List
-#### 237. Delete Node in a Linked List
-#### 206. Reverse Linked List
-#### 203. Remove Linked List Elements
-#### 160. Intersection of Two Linked Lists
-#### 141. Linked List Cycle
 #### 83. Remove Duplicates from Sorted List
+#### 141. Linked List Cycle
+#### 160. Intersection of Two Linked Lists
+#### 203. Remove Linked List Elements
+#### 206. Reverse Linked List
+#### 237. Delete Node in a Linked List
+#### 328. Odd Even Linked List
 
 ## Array (4)
 #### 1. Two Sum
@@ -23,10 +24,9 @@
 
 ## Stack (4)
 #### 20. Valid Parenthese
-#### 682. Baseball Game
-#### 232. Implement Queue using Stacks
 #### 225. Implement Stack using Queues
-
+#### 232. Implement Queue using Stacks
+#### 682. Baseball Game
 
 ## Math (13)
 #### 7. Reverse Integer
