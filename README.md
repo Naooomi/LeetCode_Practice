@@ -37,6 +37,7 @@
 #### 7. Reverse Integer
 #### 13. Roman to Integer
 #### 29. Divide Two Integers(M)
+#### 50. Pow(x, n)
 #### 66.Plus One
 #### 204. Count Primes
 #### 231. Power of Two
