@@ -1,6 +1,6 @@
 # LeetCode_Practice
 
-## BinarySearch (7)
+## BinarySearch (9)
 #### 33. Search in Rotated Sorted Array
 #### 34. Find First and Last Position of Element in Sorted Array
 #### 35. Search Insert Position
@@ -53,3 +53,8 @@
 #### 20. Valid Parentheses
 #### 344. Reverse String
 #### 557. Reverse Words in a String 3
+
+### HashTable (2)
+#### 760. Find Anagram Mappings
+#### 771. Jewels and Stones
+#### 961. N-Repeated Element in Size 2N Array
