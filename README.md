@@ -58,3 +58,5 @@
 #### 760. Find Anagram Mappings
 #### 771. Jewels and Stones
 #### 961. N-Repeated Element in Size 2N Array
+#### 1207. Unique Number of Occurrences
+#### 1213. Intersection of Three Sorted Arrays
