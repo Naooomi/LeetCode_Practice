@@ -54,10 +54,11 @@
 #### 344. Reverse String
 #### 557. Reverse Words in a String 3
 
-### HashTable (2)
+### HashTable (7)
 #### 760. Find Anagram Mappings
 #### 771. Jewels and Stones
 #### 811. Subdomain Visit Count
 #### 961. N-Repeated Element in Size 2N Array
+#### 1160. Find Words That Can Be Formed by Characters
 #### 1207. Unique Number of Occurrences
 #### 1213. Intersection of Three Sorted Arrays
