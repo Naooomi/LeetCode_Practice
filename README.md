@@ -52,6 +52,7 @@
 ### String (3)
 #### 20. Valid Parentheses
 #### 344. Reverse String
+#### 383. Ransom Note
 #### 557. Reverse Words in a String 3
 
 ### HashTable (7)
