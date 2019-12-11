@@ -26,14 +26,13 @@
 #### 88. Merge Sorted Array
 #### 561. Array Partition(One)
 
-
 ## Stack (4)
 #### 20. Valid Parenthese
 #### 225. Implement Stack using Queues
 #### 232. Implement Queue using Stacks
 #### 682. Baseball Game
 
-## Math (13)
+## Math (14)
 #### 7. Reverse Integer
 #### 13. Roman to Integer
 #### 29. Divide Two Integers(M)
@@ -49,13 +48,15 @@
 #### 645. Set Mismatch
 #### 728. Self Dividing Numbers
 
-### String (3)
+### String (6)
 #### 20. Valid Parentheses
 #### 344. Reverse String
 #### 383. Ransom Note
+#### 387. First Unique Character in a String
 #### 557. Reverse Words in a String 3
+#### 1108. Defanging an IP Address
 
-### HashTable (7)
+### HashTable (8)
 #### 760. Find Anagram Mappings
 #### 771. Jewels and Stones
 #### 811. Subdomain Visit Count
