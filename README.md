@@ -48,12 +48,13 @@
 #### 645. Set Mismatch
 #### 728. Self Dividing Numbers
 
-### String (6)
+### String (7)
 #### 20. Valid Parentheses
 #### 344. Reverse String
 #### 383. Ransom Note
 #### 387. First Unique Character in a String
 #### 557. Reverse Words in a String 3
+#### 890. Find and Replace Pattern
 #### 1108. Defanging an IP Address
 
 ### HashTable (8)
