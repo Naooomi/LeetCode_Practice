@@ -48,7 +48,7 @@
 #### 645. Set Mismatch
 #### 728. Self Dividing Numbers
 
-### String (7)
+### String (8)
 #### 20. Valid Parentheses
 #### 344. Reverse String
 #### 383. Ransom Note
@@ -56,6 +56,7 @@
 #### 557. Reverse Words in a String 3
 #### 890. Find and Replace Pattern
 #### 1108. Defanging an IP Address
+#### 1189. Maximum Number of Balloons
 
 ### HashTable (8)
 #### 760. Find Anagram Mappings
