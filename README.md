@@ -20,11 +20,14 @@
 #### 237. Delete Node in a Linked List
 #### 328. Odd Even Linked List
 
-## Array (4)
+## Array (7)
 #### 1. Two Sum
 #### 27. Remove Element
 #### 88. Merge Sorted Array
 #### 561. Array Partition(One)
+#### 1078. Occurrences After Bigram
+#### 1122. Relative Sort Array
+#### 1200. Minimum Absolute Difference
 
 ## Stack (4)
 #### 20. Valid Parenthese
