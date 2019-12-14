@@ -62,9 +62,11 @@
 #### 1189. Maximum Number of Balloons
 
 ### HashTable (8)
+#### 136. Single Number
 #### 760. Find Anagram Mappings
 #### 771. Jewels and Stones
 #### 811. Subdomain Visit Count
+#### 884. Uncommon Words from Two Sentences
 #### 961. N-Repeated Element in Size 2N Array
 #### 1002. Find Common Characters
 #### 1160. Find Words That Can Be Formed by Characters
