@@ -1,22 +1,24 @@
+import java.util.Stack;
+
 /**
-  Description:
-
-  Implement the following operations of a queue using stacks.
-
-  push(x) -- Push element x to the back of queue.
-  pop() -- Removes the element from in front of queue.
-  peek() -- Get the front element.
-  empty() -- Return whether the queue is empty.
+	  
+	Description:
+	
+	Implement the following operations of a queue using stacks.
+	
+	push(x) -- Push element x to the back of queue.
+	pop() -- Removes the element from in front of queue.
+	peek() -- Get the front element.
+	empty() -- Return whether the queue is empty.
   
  */
 
-class MyQueue {
-
+public class implementQueueUsingStacks {
     Stack<Integer> pushStack = new Stack<>();
     Stack<Integer> popStack = new Stack<>();
 
     /** Initialize your data structure here. */
-    public MyQueue() {
+    public implementQueueUsingStacks() {
 
     }
 

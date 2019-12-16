@@ -16,9 +16,8 @@
 
 */
 
-
-class Solution {
-    public int[] searchRange(int[] nums, int target) 
+public class firstLastPositionInSortedArray {
+	public int[] searchRange(int[] nums, int target) 
     {
         int first = firstIndex(nums, 0, nums.length - 1, target);
         int last = lastIndex(nums, 0, nums.length - 1, target);

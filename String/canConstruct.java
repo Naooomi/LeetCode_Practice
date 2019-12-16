@@ -1,3 +1,7 @@
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
     383. Ransom Note
 
@@ -23,8 +27,8 @@
     - Space Complexity: O(1)
 */
 
-class Solution {
-    public boolean canConstruct(String ransomNote, String magazine) {
+public class canConstruct {
+    public boolean solution1(String ransomNote, String magazine) {
         if (ransomNote.length() > magazine.length()) return false;
         
         int len = ransomNote.length(), rPointer = 0, mPointer = 0;
@@ -47,16 +51,13 @@ class Solution {
             {
                 mPointer++;
             }
-                
         }
         
         return (len == 0);
     }
-}
-
-// Solution Two
-class Solution {
-    public boolean canConstruct(String ransomNote, String magazine) {
+    
+    // Solution Two
+    public boolean solution2(String ransomNote, String magazine) {
         Map<Character, Integer> map = new HashMap<>();
         
         for (int i = 0; i < magazine.length(); i++)

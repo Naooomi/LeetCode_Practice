@@ -25,8 +25,8 @@
 
 */
 
-class Solution {
-    public int maxNumberOfBalloons(String text) {
+public class maxNumberOfBalloons {
+    public int solution(String text) {
         int[] counter = new int[26];
         
         for (int i = 0; i < text.length(); i++)

@@ -20,15 +20,15 @@
     Would this affect the run-time complexity? How and why?
     
  */
+// Time: O(logN)
+// Space: O(1)
 
-class Solution {
-    // Time: O(logN)
-    // Space: O(1)
-    public boolean search(int[] nums, int target) {
+public class searchInRotatedSortedArray2 {
+	public boolean search(int[] nums, int target) {
         int left = 0, pivot = 0;
         int right = nums.length - 1;
         
-        if (nums == null || nums.length == 0) return -1;
+        if (nums == null || nums.length == 0) return false;
 
         while (left <= right)
         {

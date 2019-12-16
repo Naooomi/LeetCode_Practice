@@ -1,22 +1,9 @@
-/**
- * Definition for ListNode.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int val) {
- *         this.val = val;
- *         this.next = null;
- *     }
- * }
- */
-
-
-public class Solution {
+public class countNodes {
     /*
      * @param head: the first node of linked list.
      * @return: An integer
      */
-    public int countNodes(ListNode head) {
+    public int count_Nodes(ListNode head) {
 
         int count = 0;
         for (ListNode n = head; n != null; n = n.next) {
@@ -24,5 +11,15 @@ public class Solution {
         }
         return count;
 
+    }
+    
+    // Definition for ListNode.
+    private class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int val) {
+            this.val = val;
+            this.next = null;
+        }
     }
 }

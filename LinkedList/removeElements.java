@@ -1,20 +1,10 @@
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
+	Description:
+	Remove all elements from a linked list of integers that have value val.
  */
 
-/**
- * Description:
- * Remove all elements from a linked list of integers that have value val.
- */
-
-class Solution {
-
-    public ListNode removeElements(ListNode head, int val) {
+public class removeElements {
+	public ListNode remove_Elements(ListNode head, int val) {
 
         ListNode current = head;
 
@@ -27,4 +17,11 @@ class Solution {
         }
         return head.val == val ? head.next : head;
     }
+	
+	// Definition for singly-linked list.
+	private class ListNode {
+	    int val;
+	    ListNode next;
+	    ListNode(int x) { val = x; }
+	}
 }

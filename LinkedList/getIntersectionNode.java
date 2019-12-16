@@ -1,22 +1,10 @@
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
-
-/**
  * Description:
  * Write a program to find the node at which the intersection of two singly linked lists begins.
  */
 
-public class Solution {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+public class getIntersectionNode {
+	public ListNode get_IntersectionNode(ListNode headA, ListNode headB) {
 
         int lenA = length(headA);
         int lenB = length(headB);
@@ -48,4 +36,11 @@ public class Solution {
         }
         return length;
     }
+    
+	// Definition for singly-linked list.
+	private class ListNode {
+	    int val;
+	    ListNode next;
+	    ListNode(int x) { val = x; }
+	}
 }

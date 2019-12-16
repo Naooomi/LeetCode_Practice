@@ -22,8 +22,9 @@
     n is a 32-bit signed integer, within the range [−231, 231 − 1]
 
  */
-class Solution {
-    public double myPow(double x, int n) {
+
+public class myPow {
+    public double solution(double x, int n) {
         if (n == 0) return 1;
         
         if (n < 0)
@@ -39,7 +40,7 @@ class Solution {
             x = 1 / x;
         }
         
-        double result = myPow(x, n / 2);
+        double result = solution(x, n / 2);
         
         if (n % 2 == 0)
             return result * result;

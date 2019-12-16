@@ -1,3 +1,7 @@
+package Array;
+
+import java.util.ArrayList;
+
 /**
     1078. Occurrences After Bigram
     
@@ -21,8 +25,9 @@
     3. 1 <= first.length, second.length <= 10
     4. first and second consist of lowercase English letters.
 */
-class Solution {
-    public String[] findOcurrences(String text, String first, String second) {
+
+public class findOcurrences {
+    public String[] solution(String text, String first, String second) {
         String[] words = text.split(" ");
         
         ArrayList<String> result = new ArrayList<String>();

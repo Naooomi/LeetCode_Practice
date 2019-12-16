@@ -1,22 +1,23 @@
+import java.util.LinkedList;
+
 /**
 
-  Description:
-
-  Implement the following operations of a stack using queues.
-
-  push(x) -- Push element x onto stack.
-  pop() -- Removes the element on top of the stack.
-  top() -- Get the top element.
-  empty() -- Return whether the stack is empty.
+	Description:
+	
+	Implement the following operations of a stack using queues.
+	
+	push(x) -- Push element x onto stack.
+	pop() -- Removes the element on top of the stack.
+	top() -- Get the top element.
+	empty() -- Return whether the stack is empty.
 
  */
 
-class MyStack {
-
+public class implementStackUsingQueues {
     private LinkedList<Integer> q1 = new LinkedList<>();
 
     /** Initialize your data structure here. */
-    public MyStack() {
+    public implementStackUsingQueues() {
 
     }
 

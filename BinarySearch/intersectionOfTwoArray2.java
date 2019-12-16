@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 /**
     350. Intersection of Two Arrays II
 
@@ -18,8 +22,8 @@
 
  */
 
-class Solution {
-    public int[] intersect(int[] nums1, int[] nums2) {
+public class intersectionOfTwoArray2 {
+	public int[] intersect(int[] nums1, int[] nums2) {
         // Hash nums1 into the hashtable and increase values.
         // Put nums2 into the array list and decrease values in hashtable.
         // Convert ArrayList to array of integers.

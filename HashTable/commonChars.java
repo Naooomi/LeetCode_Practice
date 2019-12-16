@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
     1002. Find Common Characters
@@ -22,8 +24,9 @@ import java.util.Arrays;
     3. A[i][j] is a lowercase letter
 
 */
-class Solution {
-    public List<String> commonChars(String[] A) {
+
+public class commonChars {
+	public List<String> common_Chars(String[] A) {
         List<String> result = new ArrayList<>();
         int[] commonCharsCount = new int[26];
         // fill the array with the max integer, so it can be compared with 
@@ -36,7 +39,7 @@ class Solution {
 
             // count char in this string
             // index will be the sequence of each letter. eg: tempCharsCount[0] : a, tempCharsCount[1] : b
-            for (Char c : s.toCharArray())
+            for (char c : s.toCharArray())
                 tempCharsCount[c - 'a']++;
 
             // update the commonCharsCount

@@ -21,8 +21,8 @@
     
  */
 
- class Solution {
-    public int findMin(int[] nums) {
+public class findMinInRotatedSortedArray2 {
+	 public int findMin(int[] nums) {
         int left = 0, pivot = 0;
         int right = nums.length - 1;
         

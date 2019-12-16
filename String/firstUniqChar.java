@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 /**
     387. First Unique Character in a String
     Description:
@@ -17,8 +19,9 @@
     1. Time Complexity : O(N) since we go throught the string of length N two times
     2. Space Complexity : O(N) since we have to keep a hash map with N elements
 */
-class Solution {
-    public int firstUniqChar(String s) {
+
+public class firstUniqChar {
+    public int solution(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++)

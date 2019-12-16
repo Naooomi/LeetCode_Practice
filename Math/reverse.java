@@ -1,12 +1,13 @@
 /**
 
-  Description:
-
-  Given a 32-bit signed integer, reverse digits of an integer.
+	Description:
+	
+	Given a 32-bit signed integer, reverse digits of an integer.
 
 */
-public class Solution {
-    public int reverse(int x) {
+
+public class reverse {
+    public int solution(int x) {
 
         int result = 0;
 

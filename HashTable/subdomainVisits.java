@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
     811. Subdomain Visit Count
 
@@ -41,8 +46,8 @@
 
 */
 
-class Solution {
-    public List<String> subdomainVisits(String[] cpdomains) {
+public class subdomainVisits {
+	public List<String> solution(String[] cpdomains) {
         List<String> result = new ArrayList<String>();
         Map<String, Integer> counts = new HashMap<String, Integer>();
         

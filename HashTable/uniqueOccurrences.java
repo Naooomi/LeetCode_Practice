@@ -1,3 +1,8 @@
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 /**
     1207. Unique Number of Occurrences
     
@@ -22,8 +27,9 @@
     2. -1000 <= arr[i] <= 1000
 
 */
-class Solution {
-    public boolean uniqueOccurrences(int[] arr) {
+
+public class uniqueOccurrences {
+    public boolean unique_Occurrences(int[] arr) {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         
         for (int i = 0; i < arr.length; i++)
@@ -32,7 +38,7 @@ class Solution {
         }
         
         int count = map.size();
-        Set<Integer> set = new HashSet(map.values());
+        Set<Integer> set = new HashSet<Integer>(map.values());
         
         return set.size() < count ? false : true;
     }

@@ -1,22 +1,10 @@
 /**
- * Definition for singly-linked list.
- * class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
-
-/**
  * Description:
  * Given a linked list, determine if it has a cycle in it.
  */
 
-public class Solution {
-    public boolean hasCycle(ListNode head) {
+public class hasCycle {
+	public boolean has_Cycle(ListNode head) {
 
         if (head == null) return false;
         ListNode slow = head;
@@ -29,4 +17,11 @@ public class Solution {
         }
         return false;
     }
+	
+	// Definition for singly-linked list.
+	private class ListNode {
+	    int val;
+	    ListNode next;
+	    ListNode(int x) { val = x; }
+	}
 }

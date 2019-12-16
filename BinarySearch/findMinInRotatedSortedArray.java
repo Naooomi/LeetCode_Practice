@@ -1,7 +1,7 @@
 /**
     153. Find Minimum in Rotated Sorted Array
 
-    Description：
+    Description:
 
     Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
     (i.e.,  [0,1,2,4,5,6,7] might become  [4,5,6,7,0,1,2]).
@@ -19,8 +19,8 @@
     
  */
 
-class Solution {
-    public int findMin(int[] nums) {
+public class findMinInRotatedSortedArray {
+	public int findMin(int[] nums) {
         int left = 0, pivot = 0;
         int right = nums.length - 1;
         

@@ -22,8 +22,8 @@
 
 */
 
-class Solution {
-    public int search(int[] nums, int target) {
+public class binarySearch {
+	public int search(int[] nums, int target) {
         int pivot, left = 0, right = nums.length - 1;
         while(left <= right)
         {

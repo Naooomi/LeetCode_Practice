@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
     961. N-Repeated Element in Size 2N Array
     
@@ -27,9 +30,10 @@
     Time Complexity: O(N)
     Space Complexity: O(N)
 */
-class Solution {
-    public int repeatedNTimes(int[] A) {
-        Map<Integer, Integer> count = new HashMap();
+
+public class repeatedNTimes {
+    public int repeated_NTimes(int[] A) {
+        Map<Integer, Integer> count = new HashMap<Integer, Integer>();
         
         for (int x : A)
         {

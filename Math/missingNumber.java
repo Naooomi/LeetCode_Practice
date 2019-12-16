@@ -1,15 +1,18 @@
+import java.util.Arrays;
+
 /**
 
-Description:
-
-Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
-
-For example,
-Given nums = [0, 1, 3] return 2.
+	Description:
+	
+	Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
+	
+	For example,
+	Given nums = [0, 1, 3] return 2.
 
 */
-class Solution {
-    public int missingNumber(int[] nums) {
+
+public class missingNumber {
+    public int solution(int[] nums) {
 
         Arrays.sort(nums);
 

@@ -22,8 +22,8 @@
 
 */
 
-class Solution {
-    public int peakIndexInMountainArray(int[] A) {
+public class peakIndexInMountainArray {
+	public int peakIndex(int[] A) {
         int start = 0;
         int length = A.length;
         int peak = 0;

@@ -1,4 +1,4 @@
-# LeetCode_Practice
+# LeetCode_Practice(59)
 
 ## BinarySearch (9)
 #### 33. Search in Rotated Sorted Array
@@ -61,7 +61,7 @@
 #### 1108. Defanging an IP Address
 #### 1189. Maximum Number of Balloons
 
-### HashTable (8)
+### HashTable (10)
 #### 136. Single Number
 #### 760. Find Anagram Mappings
 #### 771. Jewels and Stones

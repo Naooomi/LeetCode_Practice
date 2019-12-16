@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.HashSet;
+
 /**
     349. Intersection of Two Arrays
 
@@ -19,8 +22,8 @@
  */
 
  // Time: O(nlogn)
-class Solution {
-    public int[] intersection(int[] nums1, int[] nums2) {
+public class intersectionOfTwoArray {
+	public int[] intersection(int[] nums1, int[] nums2) {
         HashSet<Integer> set = new HashSet<Integer>();
         Arrays.sort(nums1);
         

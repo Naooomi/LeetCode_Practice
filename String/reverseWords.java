@@ -1,4 +1,5 @@
 /**
+    
     557. Reverse Words in a String 3
     
     Description:
@@ -7,8 +8,8 @@
 
 */
 
-public class Solution {
-    public String reverseWords(String s) {
+public class reverseWords {
+    public String solution(String s) {
         String[] words = s.split(" ");
         StringBuilder sentence = new StringBuilder();
 

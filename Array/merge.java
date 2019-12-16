@@ -1,10 +1,12 @@
+package Array;
+
 /**
- * Description:
- * Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
+	Description:
+	Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
  */
 
-class Solution {
-    public void merge(int[] nums1, int m, int[] nums2, int n) {
+public class merge {
+    public void solution(int[] nums1, int m, int[] nums2, int n) {
 
         // insert from the m+n-1 position at the bigger array
         // keep 3 pointers: one at the insertion point

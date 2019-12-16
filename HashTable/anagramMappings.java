@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
     760. Find Anagram Mappings
 
@@ -32,11 +35,12 @@
     Space Complexity :
     Use a hash table to store the mapping from value of B to its index: O(n)
 */
-class Solution {
-    public int[] anagramMappings(int[] A, int[] B) {
+
+public class anagramMappings {
+	public int[] anagram_Mappings(int[] A, int[] B) {
         // key is the index value from B
         // value is the index from B
-        Map<Integer, Integer> mapB = new HashMap();
+        Map<Integer, Integer> mapB = new HashMap<Integer, Integer>();
 
         for (int i = 0; i < B.length; i++)
             mapB.put(B[i], i);

@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
 
     1160. Find Words That Can Be Formed by Characters
@@ -31,8 +34,8 @@
 
 */
 
-class Solution {
-    public int countCharacters(String[] words, String chars) {
+public class countCharacters {
+	public int count_Characters(String[] words, String chars) {
         int count = 0;
         Map<Character, Integer> map = new HashMap<Character, Integer>();
         for (char c : chars.toCharArray())

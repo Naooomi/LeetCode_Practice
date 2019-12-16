@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 /**
     884. Uncommon Words from Two Sentences
     
@@ -22,8 +26,9 @@
     3. A and B both contain only spaces and lowercase letters.
 
 */
-class Solution {
-    public String[] uncommonFromSentences(String A, String B) {
+
+public class uncommonFromSentences {
+	public String[] uncommon_FromSentences(String A, String B) {
         HashMap<String, Integer> count = new HashMap<>();
         List<String> result = new ArrayList<>();
         

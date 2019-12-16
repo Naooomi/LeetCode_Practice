@@ -1,26 +1,23 @@
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
+	Description:
+	Reverse a singly linked list.
  */
 
-/**
- * Description:
- * Reverse a singly linked list.
- */
-
-class Solution {
-    public ListNode reverseList(ListNode head) {
-
+public class reverseList {
+	public ListNode reverse_List(ListNode head) {
         if (head == null || head.next == null) return head;
 
-        ListNode p = reverseList(head.next);
+        ListNode p = reverse_List(head.next);
         head.next.next = head;
         head.next = null;
+        
         return p;
-
     }
+	
+	// Definition for singly-linked list.
+	private class ListNode {
+	    int val;
+	    ListNode next;
+	    ListNode(int x) { val = x; }
+	}
 }

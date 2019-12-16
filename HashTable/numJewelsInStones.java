@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 /**
     771. Jewels and Stones
    
@@ -19,8 +22,8 @@
 
 */
 
-class Solution {
-    public int numJewelsInStones(String J, String S) {
+public class numJewelsInStones {
+	public int numJewels_InStones(String J, String S) {
         Set<Character> set = new HashSet<>();
         
         for (char j : J.toCharArray())

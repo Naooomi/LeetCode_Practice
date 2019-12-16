@@ -1,3 +1,7 @@
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+
 /**
 
     890. Find and Replace Pattern
@@ -24,8 +28,9 @@
     2. 1 <= pattern.length = words[i].length <= 20
 
 */
-class Solution {
-    public List<String> findAndReplacePattern(String[] words, String pattern) {
+
+public class findAndReplacePattern {
+    public List<String> solution(String[] words, String pattern) {
         List<String> res = new LinkedList<>();
         for(String word : words)
         {

@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Set;
+
 /**
 
     136. Single Number
@@ -18,8 +21,8 @@
     
 */
 
-class Solution {
-    public int singleNumber(int[] nums) {
+public class singleNumber {
+    public int single_Number(int[] nums) {
         HashMap<Integer, Integer> count = new HashMap<>();
         
         for (int num : nums)
@@ -34,4 +37,4 @@ class Solution {
         Set<Integer> result = count.keySet();
         return (int)result.toArray()[0];
     }
- }
+}

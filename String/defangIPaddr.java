@@ -17,11 +17,11 @@
     The given address is a valid IPv4 address.
 */
 
-/**
- * Solution One
-*/
-class Solution {
-    public String defangIPaddr(String address) {
+public class defangIPaddr {
+	/**
+	 * Solution One
+	*/
+    public String solution1(String address) {
         String result = "";
         
         for (int i = 0; i < address.length(); i++)
@@ -37,13 +37,11 @@ class Solution {
         
         return result;
     }
-}
 
-/**
- * Solution Two
-*/
-class Solution {
-    public String defangIPaddr(String address) {
+	/**
+	 * Solution Two
+	*/
+    public String solution2(String address) {
         String result = address.replace(".", "[.]");
             
         return result;
