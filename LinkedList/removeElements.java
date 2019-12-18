@@ -22,6 +22,7 @@ public class removeElements {
 	private class ListNode {
 	    int val;
 	    ListNode next;
-	    ListNode(int x) { val = x; }
+	    @SuppressWarnings("unused")
+		ListNode(int x) { val = x; }
 	}
 }

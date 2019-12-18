@@ -20,8 +20,10 @@ public class hasCycle {
 	
 	// Definition for singly-linked list.
 	private class ListNode {
-	    int val;
+	    @SuppressWarnings("unused")
+		int val;
 	    ListNode next;
-	    ListNode(int x) { val = x; }
+	    @SuppressWarnings("unused")
+		ListNode(int x) { val = x; }
 	}
 }

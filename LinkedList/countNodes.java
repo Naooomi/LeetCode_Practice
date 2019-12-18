@@ -15,9 +15,11 @@ public class countNodes {
     
     // Definition for ListNode.
     private class ListNode {
-        int val;
+        @SuppressWarnings("unused")
+		int val;
         ListNode next;
-        ListNode(int val) {
+        @SuppressWarnings("unused")
+		ListNode(int val) {
             this.val = val;
             this.next = null;
         }
