@@ -35,8 +35,39 @@ import java.util.Stack;
 	When i = 0, stack = [0 (73), 1 (74), 2 (75), 6 (76)]. ans[i] = 1.
 
 */
+
+/**
+ * Difference between --i and i--:
+ * They both decrease the number. --i is equivalent to i = i - 1
+ * 
+ * i-- and --i are very similar but not exactly the same. Both decrease the number, but --i decrease the number before the current expression is evaluated,
+ * whereas i-- decreases the number after the expression is evaluated 
+ * 
+ * eg:
+ * int i = 3;
+ * int a = i--; // a = 3, i = 2
+ * int b = --i; // b = 2, i = 2
+ * 
+ * */
+
 public class dailyTemperatures {
-    public int[] daily_Temperatures(int[] T) {
+	public int[] daily_Temperatures(int[] T) {
+        int[] result = new int[T.length];
+        Stack<Integer> stack = new Stack<Integer>();
+        
+        for (int i = T.length - 1; i >= 0; --i)
+        {
+            while (!stack.isEmpty() && T[i] >= T[stack.peek()])
+                stack.pop();
+            
+            result[i] = stack.isEmpty() ? 0 : stack.peek() - i;
+            stack.push(i);
+        }
+        
+        return result;
+    }
+
+	public int[] daily_TemperaturesExplained(int[] T) {
         int[] result = new int[T.length];
         System.out.println("Initial result array : " + Arrays.toString(result));
         Stack<Integer> stack = new Stack<>();
@@ -74,7 +105,7 @@ public class dailyTemperatures {
     	dailyTemperatures temp = new dailyTemperatures();
     	int[] T = {73, 74, 75, 71, 69, 72, 76, 73};
     	
-    	int [] result = temp.daily_Temperatures(T);
+    	int [] result = temp.daily_TemperaturesExplained(T);
     	System.out.println("result is : " + Arrays.toString(result));
     }
 }
