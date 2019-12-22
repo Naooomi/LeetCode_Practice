@@ -63,6 +63,9 @@
 
 ### HashTable (10)
 #### 136. Single Number
+#### 347. Top K Frequent Elements
+#### 451. Sort Character By Frequency
+#### 739. Daily Temperatures
 #### 760. Find Anagram Mappings
 #### 771. Jewels and Stones
 #### 811. Subdomain Visit Count
