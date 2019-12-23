@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.PriorityQueue;
 
 /**
  	347. Top K Frequent Elements
@@ -25,7 +26,53 @@ import java.util.Map;
 	
  */
 public class topKFrequent {
-    public List<Integer> topK_Frequent(int[] nums, int k) {
+	// Solution One : Priority Queue + Max Heap
+	// Time Complexity : O(N) + O(nlogk)
+	// Space Complexity : O(N)
+	public List<Integer> topKFrequentPriorityQueue(int[] nums, int k) 
+	{
+		List<Integer> result = new ArrayList<Integer>();
+		Map<Integer, Integer> count = new HashMap<Integer, Integer>();
+		
+		for (int n : nums)
+			count.put(n, count.getOrDefault(n, 0) + 1);
+		
+		PriorityQueue<int[]> queue = new PriorityQueue<>((x, y) -> x[0] - y[0]);
+		
+		// Unfinish
+		return result;
+	}
+	
+	// Solution Two : Bucket Sort
+	// Time Complexity : O(N)
+	// Space Complexity : O(N)
+	public List<Integer> topK_FrequentBucketSort(int[] nums, int k) 
+	{
+		List[] bucket = new List[nums.length + 1];
+		Map<Integer, Integer> count = new HashMap<Integer, Integer>();
+		List<Integer> result = new ArrayList<Integer>();
+		
+		for (int n : nums)
+			count.put(n, count.getOrDefault(n, 0) + 1);
+		
+		for (int num : count.keySet())
+		{
+			int c = count.get(num);
+			if (bucket[c] == null)
+				bucket[c] = new ArrayList<Integer>();
+			bucket[c].add(num);
+		}
+		
+		for (int i = nums.length; i >= 0 && result.size() < k; i--)
+		{
+			if (bucket[i] != null) result.addAll(bucket[i]);
+		}
+		
+		return result;
+	}
+	
+	public List<Integer> explain_TopKFrequent(int[] nums, int k) 
+	{
         //Using HashMap and LinkedList
         Map<Integer, Integer> count = new HashMap<Integer, Integer>();
         List<Integer>[] bucket = new LinkedList[nums.length + 1];
@@ -69,7 +116,7 @@ public class topKFrequent {
     	int[] nums = {1, 1, 2, 2, 4, 4, 4, 4, 5, 6};
     	int k = 3;
     	topKFrequent topKF = new topKFrequent();
-    	List<Integer> result = topKF.topK_Frequent(nums, k);
+    	List<Integer> result = topKF.explain_TopKFrequent(nums, k);
     	
     	System.out.println(result);
     }
