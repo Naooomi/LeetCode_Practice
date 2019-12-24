@@ -61,8 +61,9 @@
 #### 1108. Defanging an IP Address
 #### 1189. Maximum Number of Balloons
 
-### HashTable (10)
+### HashTable (14)
 #### 136. Single Number
+#### 169. Majority Element
 #### 347. Top K Frequent Elements
 #### 451. Sort Character By Frequency
 #### 739. Daily Temperatures
