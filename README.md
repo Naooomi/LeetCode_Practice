@@ -24,6 +24,7 @@
 #### 1. Two Sum
 #### 27. Remove Element
 #### 88. Merge Sorted Array
+#### 121. Best Time to Buy and Sell Stock
 #### 448. Find All Numbers Disappeared in an Array
 #### 561. Array Partition(One)
 #### 1078. Occurrences After Bigram
