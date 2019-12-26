@@ -11,12 +11,13 @@
 #### 350. Intersection of Two Arrays II
 #### 704. Binary Search
 
-## LinkedList (7)
+## LinkedList (8)
 #### 83. Remove Duplicates from Sorted List
 #### 141. Linked List Cycle
 #### 160. Intersection of Two Linked Lists
 #### 203. Remove Linked List Elements
 #### 206. Reverse Linked List
+#### 234. Palindrome Linked List
 #### 237. Delete Node in a Linked List
 #### 328. Odd Even Linked List
 
