@@ -1,5 +1,8 @@
 # LeetCode_Practice(59)
 
+## Tree(1)
+#### 938. Range Sum of BST
+
 ## BinarySearch (9)
 #### 33. Search in Rotated Sorted Array
 #### 34. Find First and Last Position of Element in Sorted Array
@@ -31,6 +34,7 @@
 #### 1078. Occurrences After Bigram
 #### 1122. Relative Sort Array
 #### 1200. Minimum Absolute Difference
+#### 1295. Find Numbers with Even Number of Digits
 
 ## Stack (4)
 #### 20. Valid Parenthese

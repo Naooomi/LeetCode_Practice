@@ -37,7 +37,7 @@ public class topKFrequent {
 		for (int n : nums)
 			count.put(n, count.getOrDefault(n, 0) + 1);
 		
-		PriorityQueue<int[]> queue = new PriorityQueue<>((x, y) -> x[0] - y[0]);
+		PriorityQueue<Map.Entry<Integer, Integer>> maxHeap = new PriorityQueue<>((a, b) -> b.getValue() - a.getValue());
 		
 		// Unfinish
 		return result;
