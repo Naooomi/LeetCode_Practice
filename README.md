@@ -1,6 +1,8 @@
 # LeetCode_Practice(59)
 
-## Tree(1)
+## Tree(3)
+#### 617. Merge Two Binary Trees
+#### 700. Search in a Binary Search Tree
 #### 938. Range Sum of BST
 
 ## BinarySearch (9)
