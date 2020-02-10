@@ -2,6 +2,7 @@
 
 ## Tree(3)
 #### 589. N-ary Tree Preorder Traversal
+#### 590. N-ary Tree Postorder Traversal
 #### 617. Merge Two Binary Trees
 #### 700. Search in a Binary Search Tree
 #### 938. Range Sum of BST
