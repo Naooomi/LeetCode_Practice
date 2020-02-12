@@ -1,13 +1,15 @@
-# LeetCode_Practice(59)
+# LeetCode_Practice(75)
 
-## Tree(7)
+## Tree(9)
 #### 589. N-ary Tree Preorder Traversal
 #### 559. Maximum Depth of N-ary Tree
 #### 590. N-ary Tree Postorder Traversal
 #### 617. Merge Two Binary Trees
 #### 700. Search in a Binary Search Tree
+#### 872. Leaf-Similar Trees
 #### 897. Increasing Order Search Tree
 #### 938. Range Sum of BST
+#### 965. Univalued Binary Tree
 
 ## BinarySearch (9)
 #### 33. Search in Rotated Sorted Array
@@ -30,7 +32,7 @@
 #### 237. Delete Node in a Linked List
 #### 328. Odd Even Linked List
 
-## Array (8)
+## Array (10)
 #### 1. Two Sum
 #### 27. Remove Element
 #### 88. Merge Sorted Array
