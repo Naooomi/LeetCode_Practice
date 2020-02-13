@@ -1,6 +1,6 @@
-# LeetCode_Practice(75)
+# LeetCode_Practice(76)
 
-## Tree(9)
+## Tree(10)
 #### 589. N-ary Tree Preorder Traversal
 #### 559. Maximum Depth of N-ary Tree
 #### 590. N-ary Tree Postorder Traversal
@@ -10,6 +10,7 @@
 #### 897. Increasing Order Search Tree
 #### 938. Range Sum of BST
 #### 965. Univalued Binary Tree
+#### 1022. Sum of Root To Leaf Binary Numbers
 
 ## BinarySearch (9)
 #### 33. Search in Rotated Sorted Array
