@@ -1,5 +1,7 @@
 package Tree;
 
+import java.util.Stack;
+
 /**
 	1022. Sum of Root To Leaf Binary Numbers
 	
@@ -31,5 +33,45 @@ package Tree;
 */
 
 public class sumRootToLeaf {
-
+	//Definition for a binary tree node.
+	public class TreeNode {
+		int val;
+		TreeNode left;
+		TreeNode right;
+		TreeNode(int x) { val = x; }
+	}
+	
+    public int sum_RootToLeaf(TreeNode root) {
+        if (root == null) return 0;
+        
+        int sum = 0;
+        
+        Stack<TreeNode> nodeStack = new Stack<TreeNode>();
+        Stack<Integer> prevSum = new Stack<Integer>();
+    	nodeStack.push(root);
+    	prevSum.push(root.val);
+    	
+    	while(!nodeStack.isEmpty())
+    	{
+    		TreeNode tempNode = nodeStack.pop();
+    		Integer tempSum = prevSum.pop();
+    		
+    		if (tempNode.left == null && tempNode.right == null)
+    			sum += tempSum;
+    		
+    		if (tempNode.left != null)
+    		{
+    			nodeStack.push(tempNode.left);
+    			prevSum.push(tempSum*2 + tempNode.left.val);
+    		}
+    		
+    		if (tempNode.right != null)
+    		{
+    			nodeStack.push(tempNode.right);
+    			prevSum.push(tempSum*2 + tempNode.right.val);
+    		}
+    	}
+    	
+    	return sum;
+    }
 }

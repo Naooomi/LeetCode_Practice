@@ -1,10 +1,12 @@
-# LeetCode_Practice(76)
+# LeetCode_Practice(78)
 
-## Tree(10)
+## Tree(12)
+#### 104. Maximum Depth of Binary Tree
 #### 589. N-ary Tree Preorder Traversal
 #### 559. Maximum Depth of N-ary Tree
 #### 590. N-ary Tree Postorder Traversal
 #### 617. Merge Two Binary Trees
+#### 669. Trim a Binary Search Tree
 #### 700. Search in a Binary Search Tree
 #### 872. Leaf-Similar Trees
 #### 897. Increasing Order Search Tree
